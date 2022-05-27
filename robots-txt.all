@@ -69,7 +69,7 @@ api/2.0/static/page_content
 @api/deki/files
 @api/deki/users
 @api/deki/users/authenticate
-api_docs$
+api_docs
 api/my
 api/odata
 api/ui-extensions
@@ -427,7 +427,6 @@ electrode/api/logger
 elements
 el-paso-health-care
 email
-email$
 email_collect
 em/en
 em/en/promos
