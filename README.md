@@ -1,6 +1,12 @@
 # secfiles
 My files for security assessments, bug bounty and more.
 
+Installation 📡
+----------
+```shell
+git clone https://github.com/edoardottt/secfiles
+```
+
 License 📝
 -------
 
