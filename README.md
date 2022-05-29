@@ -7,6 +7,10 @@ Installation 📡
 git clone https://github.com/edoardottt/secfiles
 ```
 
+Changelog 📌
+-------
+Detailed changes for each release are documented in the [release notes](https://github.com/edoardottt/secfiles/releases).
+
 License 📝
 -------
 
