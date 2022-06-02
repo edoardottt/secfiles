@@ -25,6 +25,7 @@ cdn
 chat
 chatbot
 ci
+ci-cd
 cicd
 citrix
 click
@@ -151,6 +152,7 @@ pop3
 portal
 preview
 prod
+prod1
 proxy
 public
 radio
@@ -184,6 +186,7 @@ stat
 static
 stats
 stg
+stg-api
 store
 support
 survey
