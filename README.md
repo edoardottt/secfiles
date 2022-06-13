@@ -11,6 +11,12 @@ Changelog 📌
 -------
 Detailed changes for each release are documented in the [release notes](https://github.com/edoardottt/secfiles/releases).
 
+Contributing 🤝
+------
+If you spot an error, you can open an [issue](https://github.com/edoardottt/secfiles/issues).
+
+Thanks to [HackTricks Book](https://book.hacktricks.xyz/welcome/readme) and [allanlw/svg-cheatsheet](https://github.com/allanlw/svg-cheatsheet).
+
 License 📝
 -------
 
