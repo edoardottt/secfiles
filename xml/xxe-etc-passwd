@@ -1,0 +1,3 @@
+<!--?xml version="1.0" ?-->
+<!DOCTYPE foo [<!ENTITY example SYSTEM "/etc/passwd"> ]>
+<data>&example;</data>
