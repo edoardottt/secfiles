@@ -8,4 +8,8 @@
 - [ssrf-image](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-image) SSRF - Using image in xml
 - [ssrf-use](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-use) SSRF - Using use href
 - [ssrf-xxe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-xxe) SSRF - Using XML External Entity
-- [xss-alert-1](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-1) XSS - Using script tag
+- [xss-alert-1](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-1) XSS - Using script tag (file upload)
+- [xss-alert-2](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-2) XSS - Using script tag
+- [xss-alert-3](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-3) XSS - Using script tag
+- [xss-alert-4](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-4) XSS - Using script tag inside an iframe tag
+- [xss-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/xss-iframe) XSS - Using script tag inside an iframe tag
