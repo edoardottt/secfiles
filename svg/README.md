@@ -6,3 +6,6 @@
 - [ssrf-css-stylesheet](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-stylesheet) SSRF - Using xml stylesheet
 - [ssrf-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-iframe) SSRF - Using iframe in foreignObject
 - [ssrf-image](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-image) SSRF - Using image in xml
+- [ssrf-use](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-use) SSRF - Using use href
+- [ssrf-xxe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-xxe) SSRF - Using XML External Entity
+- [xss-alert-1](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-1) XSS - Using script tag
