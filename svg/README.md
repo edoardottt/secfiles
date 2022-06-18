@@ -3,3 +3,6 @@
 - [php-ls](https://github.com/edoardottt/secfiles/blob/main/svg/php-ls) RCE - ls command using php expect
 - [ssrf-css](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css) SSRF - Using css href
 - [ssrf-css-include](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-include) SSRF - Using css @import
+- [ssrf-css-stylesheet](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-stylesheet) SSRF - Using xml stylesheet
+- [ssrf-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-iframe) SSRF - Using iframe in foreignObject
+- [ssrf-image](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-image) SSRF - Using image in xml
