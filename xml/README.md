@@ -5,3 +5,6 @@
 - [xxe-etc-passwd](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-etc-passwd) LFI - Retrieving /etc/passwd using external entity
 - [xxe-etc-passwd-error](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-etc-passwd-error) LFI - Retrieving /etc/passwd using external dtd
 - [xxe-file-etc-passwd](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-file-etc-passwd) LFI - Retrieving /etc/passwd using external entity
+- [xxe-java-ls](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-java-ls) Recon - List files in folders
+- [xxe-php-etc-passwd](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-php-etc-passwd) LFI - Retrieving /etc/passwd using php://filter
+- [xxe-php-rce](https://github.com/edoardottt/secfiles/blob/main/xml/xxe-php-rce) RCE - Remote Command Execution with php expect://id
