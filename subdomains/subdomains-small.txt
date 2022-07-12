@@ -73,6 +73,7 @@ ftp2
 game
 games
 gateway
+github
 grafana
 gw
 help
