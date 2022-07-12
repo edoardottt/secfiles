@@ -75,6 +75,7 @@ games
 gateway
 git
 github
+gitlab
 grafana
 gw
 help
