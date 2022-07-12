@@ -47,6 +47,7 @@ de
 demo
 dev
 dev2
+devel
 develop
 developer
 dns
