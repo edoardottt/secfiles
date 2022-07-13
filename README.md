@@ -1,7 +1,7 @@
 # secfiles
 My files for security assessments, bug bounty and more.
 
-Installation 📡
+Download 📡
 ----------
 ```shell
 git clone https://github.com/edoardottt/secfiles
