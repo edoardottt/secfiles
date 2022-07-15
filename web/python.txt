@@ -5,6 +5,11 @@ app/__init__.py
 app/login.py
 app/main.py
 app.py
+core/admin.py
+core/app.py
+core/__init__.py
+core/login.py
+core/main.py
 __init__.py
 login.py
 main/admin.py
