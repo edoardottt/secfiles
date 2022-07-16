@@ -33,11 +33,14 @@ celerybeat-schedule
 CHANGELOG
 CHANGELOG.md
 CHANGELOG.txt
+config
+config/__init__.py
 config.py
 core/admin.py
 core/app.py
 core/auth
 core/auth.py
+core/config.py
 core/core.py
 core/__init__.py
 core/login.py
@@ -95,8 +98,12 @@ libs/login.py
 libs.py
 LICENSE
 local_settings.py
+log
 login
 login.py
+log.py
+logs
+logs.py
 main
 main/admin
 main/admin.py
@@ -147,6 +154,7 @@ __pypackages__
 README
 README.md
 README.txt
+requirements.txt
 .ropeproject
 route
 route/__init__.py
@@ -156,6 +164,7 @@ routes/__init__.py
 routes.py
 .scrapy
 sdist
+setup.cfg
 setup.py
 share/python-wheels
 site
