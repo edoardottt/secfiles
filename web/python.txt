@@ -97,6 +97,8 @@ libs/login/__init__.py
 libs/login.py
 libs.py
 LICENSE
+LICENSE.md
+LICENSE.txt
 local_settings.py
 log
 login
