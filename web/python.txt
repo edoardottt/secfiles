@@ -29,10 +29,12 @@ celerybeat-schedule
 CHANGELOG
 CHANGELOG.md
 CHANGELOG.txt
+config.py
 core/admin.py
 core/app.py
 core/auth
 core/auth.py
+core/core.py
 core/__init__.py
 core/login.py
 core/main.py
@@ -87,6 +89,7 @@ libs/login
 libs/login/__init__.py
 libs/login.py
 libs.py
+LICENSE
 local_settings.py
 login
 login.py
@@ -124,6 +127,8 @@ pdm.lock
 pip-delete-this-directory.txt
 Pipfile.lock
 pip-log.txt
+plugins
+plugins/__init__.py
 poetry.lock
 profile_default
 .pybuilder
@@ -141,6 +146,7 @@ README.txt
 .ropeproject
 .scrapy
 sdist
+setup.py
 share/python-wheels
 site
 .spyderproject
@@ -160,9 +166,14 @@ test.py
 tests
 tests.py
 .tox
+.travis.yml
 url
 urls
 urls.py
+utils
+utils/__init__.py
+utils.py
+utils/utils.py
 var
 .venv
 venv
