@@ -160,6 +160,7 @@ __pypackages__
 README
 README.md
 README.txt
+requirements
 requirements.txt
 .ropeproject
 route
