@@ -121,6 +121,7 @@ main/__init__.py
 main/login
 main/login.py
 main/main.py
+main/__main__.py
 __main__.py
 main.py
 manage
