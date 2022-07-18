@@ -48,8 +48,8 @@ core/auth.py
 core/config.py
 core/core.py
 core/__init__.py
-core/__main__.py
 core/login.py
+core/__main__.py
 core/main.py
 cover
 .coverage
@@ -120,8 +120,8 @@ main/app.py
 main/__init__.py
 main/login
 main/login.py
-main/main.py
 main/__main__.py
+main/main.py
 __main__.py
 main.py
 manage
@@ -187,8 +187,8 @@ src/app.py
 src/__init__.py
 src/login
 src/login.py
-src/__main__.py
 src/main
+src/__main__.py
 src/main.py
 target
 test
@@ -203,8 +203,8 @@ urls.py
 user
 user.py
 users
-users.py
 users.db
+users.py
 utils
 utils/__init__.py
 utils.py
