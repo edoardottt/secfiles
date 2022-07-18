@@ -17,6 +17,7 @@ app/auth.py
 app/__init__.py
 app/login
 app/login.py
+app/__main__.py
 app/main.py
 app.py
 asgi.py
@@ -47,6 +48,7 @@ core/auth.py
 core/config.py
 core/core.py
 core/__init__.py
+core/__main__.py
 core/login.py
 core/main.py
 cover
