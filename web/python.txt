@@ -196,6 +196,10 @@ tests.py
 url
 urls
 urls.py
+user
+user.py
+users
+users.py
 utils
 utils/__init__.py
 utils.py
