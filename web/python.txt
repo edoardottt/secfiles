@@ -184,6 +184,7 @@ src/app.py
 src/__init__.py
 src/login
 src/login.py
+src/__main__.py
 src/main
 src/main.py
 target
