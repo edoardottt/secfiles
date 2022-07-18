@@ -200,6 +200,7 @@ user
 user.py
 users
 users.py
+users.db
 utils
 utils/__init__.py
 utils.py
