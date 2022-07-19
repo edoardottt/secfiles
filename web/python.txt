@@ -39,6 +39,7 @@ celerybeat-schedule
 CHANGELOG
 CHANGELOG.md
 CHANGELOG.txt
+codecov.yml
 config
 config/__init__.py
 config.py
@@ -79,12 +80,15 @@ Dockerfile
 docs
 docs/_build
 downloads
+.editorconfig
 .eggs
 eggs
 .env
 env
 ENV
 env.bak
+example
+examples
 .git
 .gitattributes
 htmlcov
@@ -133,6 +137,7 @@ main.py
 manage
 manage.py
 MANIFEST
+MANIFEST.in
 mkdocs.yml
 models
 models.py
@@ -157,16 +162,20 @@ pip-log.txt
 plugins
 plugins/__init__.py
 poetry.lock
+.pre-commit-config.yaml
 profile_default
 .pybuilder
 __pycache__
+.pylintrc
 __pypackages__
+pyproject.toml
 .pyre
 .pytest_cache
 .Python
 .python_history
 .python-version
 .pytype
+.pyup.yml
 README
 README.md
 README.txt
@@ -245,3 +254,4 @@ views.py
 .webassets-cache
 wheels
 wsgi.py
+.yapfignore
