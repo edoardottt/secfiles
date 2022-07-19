@@ -43,6 +43,9 @@ codecov.yml
 config
 config/__init__.py
 config.py
+console
+console/__init__.py
+console.py
 CONTRIBUTING.md
 core/admin.py
 core/app.py
@@ -136,6 +139,8 @@ __main__.py
 main.py
 manage
 manage.py
+manager
+manager.py
 MANIFEST
 MANIFEST.in
 mkdocs.yml
@@ -203,6 +208,8 @@ src/app.py
 src/config
 src/config/__init__.py
 src/config.py
+src/console
+src/console.py
 src/core
 src/core.py
 src/__init__.py
