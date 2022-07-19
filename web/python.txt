@@ -184,6 +184,9 @@ src/admin
 src/admin.py
 src/app
 src/app.py
+src/config
+src/config/__init__.py
+src/config.py
 src/core
 src/core.py
 src/__init__.py
