@@ -31,6 +31,7 @@ AUTHORS
 AUTHORS.md
 AUTHORS.txt
 auth.py
+bin
 build
 .cache
 celerybeat.pid
@@ -41,6 +42,7 @@ CHANGELOG.txt
 config
 config/__init__.py
 config.py
+CONTRIBUTING.md
 core/admin.py
 core/app.py
 core/auth
@@ -69,9 +71,12 @@ db.py
 db.sqlite3
 db.sqlite3-journal
 develop-eggs
+dev-requirements.txt
 dist
 .dmypy.json
 dmypy.json
+Dockerfile
+docs
 docs/_build
 downloads
 .eggs
@@ -81,6 +86,7 @@ env
 ENV
 env.bak
 .git
+.gitattributes
 htmlcov
 .hypothesis
 .idea
@@ -127,6 +133,7 @@ main.py
 manage
 manage.py
 MANIFEST
+mkdocs.yml
 models
 models.py
 modules
@@ -212,6 +219,8 @@ test.py
 tests
 tests.py
 .tox
+tox.ini
+travis-requirements.txt
 .travis.yml
 url
 urls
