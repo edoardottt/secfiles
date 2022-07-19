@@ -194,9 +194,13 @@ target
 template
 template.py
 templates
+templates/dashboard.html
 templates/hello.html
+templates/home.html
 templates/index.html
+templates/profile.html
 templates.py
+templates/user.html
 test
 test.py
 tests
