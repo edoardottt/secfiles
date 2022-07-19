@@ -198,6 +198,7 @@ templates/dashboard.html
 templates/hello.html
 templates/home.html
 templates/index.html
+templates/__init__.py
 templates/profile.html
 templates.py
 templates/user.html
