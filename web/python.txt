@@ -214,6 +214,7 @@ var
 venv
 venv.bak
 views
+views/hello.html
 views/index.html
 views.py
 .webassets-cache
