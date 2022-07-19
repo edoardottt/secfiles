@@ -194,6 +194,8 @@ target
 template
 template.py
 templates
+templates/hello.html
+templates/index.html
 templates.py
 test
 test.py
