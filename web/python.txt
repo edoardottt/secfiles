@@ -191,6 +191,10 @@ src/main
 src/__main__.py
 src/main.py
 target
+template
+template.py
+templates
+templates.py
 test
 test.py
 tests
