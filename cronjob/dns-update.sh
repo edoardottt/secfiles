@@ -4,6 +4,8 @@ path="/home/edoardottt/github/secfiles"
 
 cd "$path"
 
+git pull
+
 rm -rf "$path/dns"
 
 mkdir "$path/dns"
