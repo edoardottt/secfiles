@@ -2,6 +2,8 @@
 
 path="/home/edoardottt/github/secfiles"
 
+cd "$path"
+
 rm -rf "$path/dns"
 
 mkdir "$path/dns"
