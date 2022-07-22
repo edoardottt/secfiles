@@ -3,7 +3,7 @@ My files for security assessments, bug bounty and more.
 
 Download 📡
 ----------
-```shell
+```bash
 git clone https://github.com/edoardottt/secfiles
 ```
 
