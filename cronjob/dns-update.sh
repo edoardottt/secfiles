@@ -1,4 +1,6 @@
 #!/bin/bash
+# This script updates (daily, active cronjob) the 3 dns lists
+# in the 'dns' folder: big, medium and small.
 
 path="/home/edoardottt/github/secfiles"
 
