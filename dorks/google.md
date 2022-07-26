@@ -1,4 +1,7 @@
-## Generic queries
+# Google Dorks
+
+
+### Generic queries
 
 - `site:*.target.com intext:uncaught`
 - `site:*.target.com intext:error`
@@ -26,14 +29,14 @@
 - `site:*.target.com inurl:admin`
 - `site:*.target.com inurl:internal`
 
-## Apache services queries
+### Apache services queries
 
 - `site:*.target.com intitle:"apache tomcat/"`
 - `site:*.target.com "Apache Tomcat examples"`
 - `site:*.target.com intext:"apache"`
 - `site:*.target.com intitle:"Solr Admin"`
 
-## GraphQL queries
+### GraphQL queries
 
 - `site:*.target.com intext:"GRAPHQL_PARSE_FAILED"`
 - `site:*.target.com intext:"GRAPHQL_VALIDATION_FAILED"`
