@@ -36,6 +36,14 @@
 - `site:*.target.com intext:"apache"`
 - `site:*.target.com intitle:"Solr Admin"`
 
+### Files
+
+- `site:*.target.com ext:txt`
+- `site:*.target.com ext:php`
+- `site:*.target.com ext:php5`
+- `site:*.target.com ext:phtml`
+- `site:*.target.com ext:xhtml`
+
 ### GraphQL queries
 
 - `site:*.target.com intext:"GRAPHQL_PARSE_FAILED"`
