@@ -47,6 +47,10 @@
 - `site:*.target.com ext:pem`
 - `site:*.target.com ext:ovpn`
 - `site:*.target.com ext:log`
+- `site:*.target.com ext:asp`
+- `site:*.target.com ext:aspx`
+- `site:*.target.com ext:jsp`
+- `site:*.target.com ext:dat`
 
 ### GraphQL queries
 
