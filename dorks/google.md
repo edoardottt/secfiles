@@ -43,6 +43,10 @@
 - `site:*.target.com ext:php5`
 - `site:*.target.com ext:phtml`
 - `site:*.target.com ext:xhtml`
+- `site:*.target.com ext:key`
+- `site:*.target.com ext:pem`
+- `site:*.target.com ext:ovpn`
+- `site:*.target.com ext:log`
 
 ### GraphQL queries
 
