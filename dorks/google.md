@@ -51,6 +51,12 @@
 - `site:*.target.com ext:aspx`
 - `site:*.target.com ext:jsp`
 - `site:*.target.com ext:dat`
+- `site:*.target.com ext:ovpn`
+- `site:*.target.com ext:yml`
+- `site:*.target.com ext:bak`
+- `site:*.target.com ext:zip`
+- `site:*.target.com ext:yaml`
+- `site:*.target.com ext:json`
 
 ### GraphQL queries
 
