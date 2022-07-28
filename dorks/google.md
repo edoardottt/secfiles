@@ -57,6 +57,11 @@
 - `site:*.target.com ext:zip`
 - `site:*.target.com ext:yaml`
 - `site:*.target.com ext:json`
+- `site:*.target.com ext:xml`
+- `site:*.target.com ext:env`
+- `site:*.target.com ext:conf`
+- `site:*.target.com ext:ini`
+- `site:*.target.com ext:cfg`
 
 ### GraphQL queries
 
