@@ -62,6 +62,11 @@
 - `site:*.target.com ext:conf`
 - `site:*.target.com ext:ini`
 - `site:*.target.com ext:cfg`
+- `site:*.target.com ext:cgi`
+- `site:*.target.com ext:ccm`
+- `site:*.target.com ext:sql`
+- `site:*.target.com ext:cdx`
+- `site:*.target.com ext:ics`
 
 ### GraphQL queries
 
