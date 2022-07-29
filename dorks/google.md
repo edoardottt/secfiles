@@ -38,6 +38,7 @@
 - `intext:"This is the default welcome page used to test the correct operation of the Apache2 server"`
 - `intitle:"index of" "powered by apache "`
 - `intext:"Apache server status for"`
+- `intitle:"Apache2 Ubuntu Default Page: It works"`
 
 ### Files
 
