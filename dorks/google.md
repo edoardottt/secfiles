@@ -37,6 +37,7 @@
 - `site:*.target.com intitle:"Solr Admin"`
 - `intext:"This is the default welcome page used to test the correct operation of the Apache2 server"`
 - `intitle:"index of" "powered by apache "`
+- `intext:"Apache server status for"`
 
 ### Files
 
