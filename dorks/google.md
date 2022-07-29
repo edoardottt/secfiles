@@ -39,6 +39,7 @@
 - `intitle:"index of" "powered by apache "`
 - `intext:"Apache server status for"`
 - `intitle:"Apache2 Ubuntu Default Page: It works"`
+- `intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"`
 
 ### Files
 
