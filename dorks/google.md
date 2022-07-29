@@ -40,6 +40,7 @@
 - `intext:"Apache server status for"`
 - `intitle:"Apache2 Ubuntu Default Page: It works"`
 - `intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"`
+- `intitle:"Test Page for the Apache HTTP Server"`
 
 ### Files
 
