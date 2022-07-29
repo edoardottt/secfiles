@@ -35,6 +35,7 @@
 - `site:*.target.com "Apache Tomcat examples"`
 - `site:*.target.com intext:"apache"`
 - `site:*.target.com intitle:"Solr Admin"`
+- `intext:"This is the default welcome page used to test the correct operation of the Apache2 server"`
 
 ### Files
 
