@@ -1,0 +1,38 @@
+id: check-top-gxss
+
+info:
+  name: Check xss for urls filtered by gxss with crafted payload from rapwp 
+  author: edoardottt
+  severity: medium
+  description: Searches for reflected XSS in the server response via GET-requests.
+  tags: xss,generic
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    redirects: true
+    max-redirects: 3
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        condition: or
+        words:
+          - "<svg/onload="
+          - "<svg onload="
+
+      - type: word
+        part: header
+        words:
+          - "text/html"
+
+      - type: word
+        part: body
+        condition: or
+        negative: true
+        words:
+          - "<title>Access Denied</title>"
+          - "You don't have permission to access"
+          - "requested URL was rejected"
