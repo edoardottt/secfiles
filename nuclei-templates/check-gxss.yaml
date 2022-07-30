@@ -1,7 +1,7 @@
-id: check-top-gxss
+id: check-gxss
 
 info:
-  name: Check xss for urls filtered by gxss with crafted payload from rapwp 
+  name: Check xss for urls filtered by gxss with crafted payload from rapwp
   author: edoardottt
   severity: medium
   description: Searches for reflected XSS in the server response via GET-requests.
