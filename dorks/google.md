@@ -35,12 +35,12 @@
 - `site:*.target.com "Apache Tomcat examples"`
 - `site:*.target.com intext:"apache"`
 - `site:*.target.com intitle:"Solr Admin"`
-- `intext:"This is the default welcome page used to test the correct operation of the Apache2 server"`
-- `intitle:"index of" "powered by apache "`
-- `intext:"Apache server status for"`
-- `intitle:"Apache2 Ubuntu Default Page: It works"`
-- `intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"`
-- `intitle:"Test Page for the Apache HTTP Server"`
+- `site:*.target.com intext:"This is the default welcome page used to test the correct operation of the Apache2 server"`
+- `site:*.target.com intitle:"index of" "powered by apache "`
+- `site:*.target.com intext:"Apache server status for"`
+- `site:*.target.com intitle:"Apache2 Ubuntu Default Page: It works"`
+- `site:*.target.com intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"`
+- `site:*.target.com intitle:"Test Page for the Apache HTTP Server"`
 
 ### Files
 
