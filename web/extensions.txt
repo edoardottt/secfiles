@@ -1,4 +1,9 @@
+.3ds
+.3dsx
+.3g2
 .3gp
+.3mf
+.4th
 .5
 .7z
 .a
@@ -264,8 +269,6 @@
 .cqs
 .create.php
 .cron
-.cropcanvas.php
-.cropinterface.php
 .crt
 .crx
 .cs
@@ -428,7 +431,6 @@
 .ficheros
 .fichiers
 .fil
-.[file
 .file
 .file-get-contents
 .filemtime
@@ -436,7 +438,6 @@
 .filereader
 .files
 .filesize
-.fillpurposes2.php
 .film
 .filters.php
 .fla
@@ -483,7 +484,6 @@
 .gif         
 .gif.count
 .gif.php
-.gif_var_de
 .git
 .go
 .google
@@ -571,8 +571,6 @@
 .html.sav
 .html.start
 .html.txt
-.htmlu
-.html_var_de
 .htm.old
 .htm.rc
 .htn
@@ -584,7 +582,6 @@
 .i
 .iac
 .ibf
-.ibuysss.info
 .ice
 .ico
 .iconv
@@ -816,8 +813,6 @@
 .mysql-select-db
 .mysql.txt
 .n
-.napravlenie_asc
-.napravlenie_desc
 .nded-pga-emial
 .ndm
 .net
@@ -976,7 +971,6 @@
 .pop_formata_viewer
 .popup
 .popup.php
-.popup.pop_formata_viewer
 .portal
 .posting.prep
 .pot
