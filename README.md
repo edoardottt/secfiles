@@ -15,7 +15,7 @@ Contributing 🤝
 ------
 If you spot an error, you can open an [issue](https://github.com/edoardottt/secfiles/issues).
 
-Thanks to [HackTricks Book](https://book.hacktricks.xyz/welcome/readme), [allanlw/svg-cheatsheet](https://github.com/allanlw/svg-cheatsheet) and [securifera](https://gist.github.com/securifera/e7eed730cbe1ce43d0c29d7cd2d582f4).
+Thanks to [HackTricks Book](https://book.hacktricks.xyz/welcome/readme), [allanlw](https://github.com/allanlw/svg-cheatsheet) and [securifera](https://gist.github.com/securifera/e7eed730cbe1ce43d0c29d7cd2d582f4).
 
 License 📝
 -------
