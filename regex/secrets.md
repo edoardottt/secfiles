@@ -7,4 +7,5 @@ Facebook Client ID: `(?i)(facebook|fb)(.{0,20})?['\"][0-9]{13,17}['\"]`
 Cloudinary Basic Auth: `cloudinary://[0-9]{15}:[0-9A-Za-z\\-_]+@[0-9A-Za-z\\-_]+`  
 Firebase Database: `([a-z0-9.-]+\.firebaseio\.com|[a-z0-9.-]+\.firebaseapp\.com)`  
 Twitter Secret Key: `(?i)twitter(.{0,20})?[0-9a-z]{35,44}`  
-Twitter Client ID: `(?i)twitter(.{0,20})?[0-9a-z]{18,25}`
+Twitter Client ID: `(?i)twitter(.{0,20})?[0-9a-z]{18,25}`  
+Github Personal Access Token: `ghp_[0-9a-zA-Z]{36}`  
