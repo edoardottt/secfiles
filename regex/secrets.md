@@ -4,3 +4,4 @@ AWS MWS Key: `amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a
 Amazon SNS topic: `arn:aws:sns:[a-z0-9\-]+:[0-9]+:[A-Za-z0-9\-_]+`  
 Facebook Secret Key: `(?i)(facebook|fb)(.{0,20})?(?-i)['\"][0-9a-f]{32}['\"]`  
 Facebook Client ID: `(?i)(facebook|fb)(.{0,20})?['\"][0-9]{13,17}['\"]`  
+Cloudinary Basic Auth: `cloudinary://[0-9]{15}:[0-9A-Za-z\\-_]+@[0-9A-Za-z\\-_]+`  
