@@ -10,3 +10,4 @@ Twitter Secret Key: `(?i)twitter(.{0,20})?[0-9a-z]{35,44}`
 Twitter Client ID: `(?i)twitter(.{0,20})?[0-9a-z]{18,25}`  
 Github Personal Access Token: `ghp_[0-9a-zA-Z]{36}`  
 Github OAuth Access Token: `gho_[0-9a-zA-Z]{36}`  
+Github App Token: `(ghu|ghs)_[0-9a-zA-Z]{36}`  
