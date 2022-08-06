@@ -12,3 +12,4 @@ Github Personal Access Token: `ghp_[0-9a-zA-Z]{36}`
 Github OAuth Access Token: `gho_[0-9a-zA-Z]{36}`  
 Github App Token: `(ghu|ghs)_[0-9a-zA-Z]{36}`  
 Github Refresh Token: `ghr_[0-9a-zA-Z]{76}`  
+LinkedIn Client ID: `(?i)linkedin(.{0,20})?(?-i)[0-9a-z]{12}`  
