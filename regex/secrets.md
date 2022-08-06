@@ -17,3 +17,4 @@ LinkedIn Secret Key: `(?i)linkedin(.{0,20})?[0-9a-z]{16}`
 Slack: `xox[baprs]-([0-9a-zA-Z]{10,48})?`  
 Asymmetric Private Key: `-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PRIVATE KEY( BLOCK)?-----`  
 Google API key: `AIza[0-9A-Za-z\\-_]{35}`  
+Google (GCP) Service Account: `"type": "service_account"`  
