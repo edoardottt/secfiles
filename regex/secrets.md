@@ -26,3 +26,4 @@ PayPal Braintree access token: `access_token\$production\$[0-9a-z]{16}\$[0-9a-f]
 SendGrid API Key: `SG\.[\w_]{16,32}\.[\w_]{16,64}`  
 Slack Webhook: `https\:\/\/hooks\.slack\.com\/services\/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8,12}/[a-zA-Z0-9_]{24}`  
 Stripe API key: `(?i)stripe(.{0,20})?[sr]k_live_[0-9a-zA-Z]{24}`  
+Square access token: `sq0atp\-[0-9A-Za-z\-_]{22}`  
