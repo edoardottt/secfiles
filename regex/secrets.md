@@ -21,3 +21,4 @@ Google (GCP) Service Account: `"type": "service_account"`
 Heroku API key: `(?i)heroku(.{0,20})?[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}`  
 MailChimp API key: `[0-9a-f]{32}-us[0-9]{1,2}`  
 Mailgun API key: `key\-[0-9a-zA-Z]{32}`  
+Pictatic API Key: `sk\_live\_[0-9a-z]{32}`  
