@@ -28,3 +28,5 @@ Slack Webhook: `https\:\/\/hooks\.slack\.com\/services\/T[a-zA-Z0-9_]{8}/B[a-zA-
 Stripe API key: `(?i)stripe(.{0,20})?[sr]k_live_[0-9a-zA-Z]{24}`  
 Square access token: `sq0atp\-[0-9A-Za-z\-_]{22}`  
 Square OAuth secret: `sq0csp\-[0-9A-Za-z\\-_]{43}`  
+Twilio API key: `(?i)twilio(.{0,20})?SK[0-9a-f]{32}`  
+
