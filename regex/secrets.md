@@ -35,3 +35,4 @@ Shopify access token: `shpat\_[a-fA-F0-9]{32}`
 Shopify custom app access token: `shpca\_[a-fA-F0-9]{32}`  
 Shopify private app access token: `shppa\_[a-fA-F0-9]{32}`  
 PyPI upload token: `pypi\-AgEIcHlwaS5vcmc[A-Za-z0-9-_]{50,1000}`  
+Bugsnag API Key: `(?i)(bs|bugsnag)(.{0,20})?[0-9a-f]{32}`  
