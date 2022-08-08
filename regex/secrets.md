@@ -36,3 +36,4 @@ Shopify custom app access token: `shpca\_[a-fA-F0-9]{32}`
 Shopify private app access token: `shppa\_[a-fA-F0-9]{32}`  
 PyPI upload token: `pypi\-AgEIcHlwaS5vcmc[A-Za-z0-9-_]{50,1000}`  
 Bugsnag API Key: `(?i)(bs|bugsnag)(.{0,20})?[0-9a-f]{32}`  
+AWS cognito pool: `(us-east-1|us-east-2|us-west-1|us-west-2|sa-east-1):[0-9A-Za-z]{8}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{4}-[0-9A-Za-z]{12}`  
