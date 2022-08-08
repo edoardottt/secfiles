@@ -33,3 +33,4 @@ Dynatrace token: `dt0[a-zA-Z]{1}[0-9]{2}\.[A-Z0-9]{24}\.[A-Z0-9]{64}`
 Shopify shared secret: `shpss\_[a-fA-F0-9]{32}`  
 Shopify access token: `shpat\_[a-fA-F0-9]{32}`  
 Shopify custom app access token: `shpca\_[a-fA-F0-9]{32}`  
+Shopify private app access token: `shppa\_[a-fA-F0-9]{32}`  
