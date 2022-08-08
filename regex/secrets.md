@@ -31,3 +31,4 @@ Square OAuth secret: `sq0csp\-[0-9A-Za-z\\-_]{43}`
 Twilio API key: `(?i)twilio(.{0,20})?SK[0-9a-f]{32}`  
 Dynatrace token: `dt0[a-zA-Z]{1}[0-9]{2}\.[A-Z0-9]{24}\.[A-Z0-9]{64}`  
 Shopify shared secret: `shpss\_[a-fA-F0-9]{32}`  
+Shopify access token: `shpat\_[a-fA-F0-9]{32}`  
