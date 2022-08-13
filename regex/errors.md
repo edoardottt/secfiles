@@ -5,3 +5,4 @@ PHP error:
   - `(?i)expect(s*) parameter [A-Za-z0-9-_]{1,30}`
   - `(?i)call to undefined method`
   - `(?i)failed to open stream`
+  - `(?i)cannot modify header information`
