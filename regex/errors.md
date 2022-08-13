@@ -3,3 +3,4 @@ PHP error:
   - `(?i)include_path`
   - `(?i)undefined (variable|index)`
   - `(?i)expect(s*) parameter [A-Za-z0-9-_]{1,30}`
+  - `(?i)call to undefined method`
