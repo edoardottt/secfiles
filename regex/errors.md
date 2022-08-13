@@ -6,3 +6,4 @@ PHP error:
   - `(?i)call to undefined method`
   - `(?i)failed to open stream`
   - `(?i)cannot modify header information`
+  - `(?i)(syntax|parse|fatal) error`
