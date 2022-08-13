@@ -8,3 +8,4 @@ PHP error:
   - `(?i)cannot modify header information`
   - `(?i)(syntax|parse|fatal) error`
   - `(?i)safe mode restriction in effect`
+  - `(?i)uncaught exception`
