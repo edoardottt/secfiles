@@ -1,3 +1,5 @@
+General error: `(?i)(fatal|critical|severe|high|medium|low) error`
+
 PHP error:
   - `(?i)php (warning|error)`
   - `(?i)include_path`
