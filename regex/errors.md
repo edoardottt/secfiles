@@ -18,3 +18,4 @@ PHP error:
 
 MariaDB error:
   - `(?i)check the manual that (fits|corresponds to) your MariaDB server version`
+  - `(?i)MariaDB error`
