@@ -1,5 +1,9 @@
 General error: `(?i)(fatal|critical|severe|high|medium|low) error`
 
+Debug Information:
+  - `(?i)Debug trace`
+  - `(?i)stack trace\:`
+
 PHP error:
   - `(?i)php (warning|error)`
   - `(?i)include_path`
