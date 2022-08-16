@@ -25,3 +25,6 @@ OracleDB error:
 
 IBMDB2 error:
   - `(?i)(CLI Driver.*DB2|DB2 SQL error|\bdb2_\w+\(|SQLSTATE.+SQLCODE)`
+
+SQLite error:
+  - `(?i)(SQLite\/JDBCDriver|SQLite.Exception|System.Data.SQLite.SQLiteException|Warning.*sqlite_.*|Warning.*SQLite3::|\[SQLITE_ERROR\])`
