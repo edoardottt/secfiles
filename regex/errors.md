@@ -15,3 +15,6 @@ PHP error:
   - `(?i)(syntax|parse|fatal) error`
   - `(?i)safe mode restriction in effect`
   - `(?i)uncaught exception`
+
+MariaDB error:
+  - `(?i)check the manual that (fits|corresponds to) your MariaDB server version`
