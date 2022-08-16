@@ -1,4 +1,5 @@
-General error: `(?i)(fatal|critical|severe|high|medium|low) error`
+General error: 
+  - `(?i)(fatal|critical|severe|high|medium|low) error`
 
 Debug Information:
   - `(?i)Debug trace`
