@@ -19,3 +19,6 @@ PHP error:
 MariaDB error:
   - `(?i)check the manual that (fits|corresponds to) your MariaDB server version`
   - `(?i)MariaDB error`
+
+OracleDB error:
+  - `(?i)(\bORA-\d{5}|Oracle error|Oracle.*Driver|Warning.*\Woci_.*|Warning.*\Wora_.*)`
