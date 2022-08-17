@@ -41,3 +41,4 @@ MSSQL error:
   - `(?i)Warning.*?\W(mssql|sqlsrv)_`
   - `(?i)\bSQL Server[^&lt;&quot;]+[0-9a-fA-F]{8}`
   - `(?i)System\.Data\.SqlClient\.SqlException`
+  - `(?is)Exception.*?\bRoadhouse\.Cms\.`
