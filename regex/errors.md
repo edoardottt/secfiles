@@ -29,3 +29,6 @@ IBMDB2 error:
 
 SQLite error:
   - `(?i)(SQLite\/JDBCDriver|SQLite.Exception|System.Data.SQLite.SQLiteException|Warning.*sqlite_.*|Warning.*SQLite3::|\[SQLITE_ERROR\])`
+
+MSSQL error:
+  - `(?i)Microsoft SQL error`
