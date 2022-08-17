@@ -37,3 +37,4 @@ MSSQL error:
   - `(?i)SQLServer JDBC Driver`
   - `(?i)Driver.*? SQL[\-\_\ ]*Server`
   - `(?i)OLE DB.*? SQL Server`
+  - `(?i)\bSQL Server[^&lt;&quot;]+Driver`
