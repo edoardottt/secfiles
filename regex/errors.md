@@ -36,3 +36,4 @@ MSSQL error:
   - `(?i)Unclosed quotation mark after the character string`
   - `(?i)SQLServer JDBC Driver`
   - `(?i)Driver.*? SQL[\-\_\ ]*Server`
+  - `(?i)OLE DB.*? SQL Server`
