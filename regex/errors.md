@@ -35,3 +35,4 @@ MSSQL error:
   - `(?i)Microsoft SQL Native Client error`
   - `(?i)Unclosed quotation mark after the character string`
   - `(?i)SQLServer JDBC Driver`
+  - `(?i)Driver.*? SQL[\-\_\ ]*Server`
