@@ -33,3 +33,4 @@ SQLite error:
 MSSQL error:
   - `(?i)Microsoft SQL error`
   - `(?i)Microsoft SQL Native Client error`
+  - `(?i)Unclosed quotation mark after the character string`
