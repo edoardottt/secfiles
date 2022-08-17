@@ -40,3 +40,4 @@ MSSQL error:
   - `(?i)\bSQL Server[^&lt;&quot;]+Driver`
   - `(?i)Warning.*?\W(mssql|sqlsrv)_`
   - `(?i)\bSQL Server[^&lt;&quot;]+[0-9a-fA-F]{8}`
+  - `(?i)System\.Data\.SqlClient\.SqlException`
