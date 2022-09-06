@@ -4,6 +4,7 @@ aac
 accdb
 accft
 adicht
+admin
 adt
 adx
 adz
@@ -29,6 +30,7 @@ amr
 amv
 ani
 ann
+apache
 ape
 ar
 arc
@@ -81,6 +83,7 @@ class
 cmd
 cmod
 cn1
+code
 coe
 com
 compile
@@ -157,12 +160,14 @@ ddp
 dds
 deb
 def
+delta
 dem
 der
 des
 desklink
 desktop
 dev
+devel
 dfd
 dff
 dfi
@@ -183,6 +188,7 @@ dib
 dic
 dicom
 dif
+diff
 dig
 dip
 dir
@@ -350,7 +356,9 @@ igc
 iges
 index
 io
+ip
 ipt
+ipynb
 iso
 it
 j2c
@@ -362,6 +370,7 @@ jl
 jnlp
 jp2
 jpeg
+jquery
 js
 json
 jsp
@@ -390,6 +399,8 @@ m4a
 m4p
 m4r
 m4v
+main
+master
 mcf
 md
 mdf
@@ -438,6 +449,8 @@ nb
 nc
 ncd
 nef
+net
+network
 neu
 npr
 nrw
@@ -510,6 +523,7 @@ pit
 pka
 pkl
 pl
+plain
 pli
 pm
 pma
@@ -565,6 +579,7 @@ rm
 rmd
 rmvb
 rol
+root
 rpm
 rs
 rsl
@@ -594,6 +609,7 @@ sds
 sdts
 search-ms
 sec
+secret
 sed
 seq
 sf
@@ -658,6 +674,7 @@ tif
 tiff
 tlb
 tmp
+tomcat
 torrent
 ts
 tsv
@@ -672,6 +689,7 @@ url
 user
 users
 ut!
+utf
 v
 v4p
 vb
