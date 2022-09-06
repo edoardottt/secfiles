@@ -1,3 +1,4 @@
+7z
 a
 aac
 accdb
@@ -42,11 +43,14 @@ aspx
 asx
 at3
 aty
+auth
 avi
 avs
 awk
 axf
 b
+bac
+backup
 bak
 bar
 bas
@@ -88,6 +92,8 @@ cpl
 cpp
 cr2
 crai
+cred
+creds
 crt
 cs
 csproj
@@ -263,6 +269,7 @@ evtx
 ex
 exe
 exp
+exploit
 exs
 ezwf
 f01
@@ -314,6 +321,8 @@ go
 gpx
 gtf
 gv
+gz
+gzip
 h
 h!
 h++
@@ -322,6 +331,7 @@ ha
 hack
 har
 hdmp
+help
 hh
 hof
 hpp
@@ -462,6 +472,9 @@ pam
 par
 par2
 pas
+pass
+passw
+passwd
 pblib
 pcl
 pcs
@@ -486,6 +499,7 @@ php
 php3
 php4
 php5
+phpx
 phr
 phtml
 phy
@@ -518,6 +532,7 @@ pts
 ptx
 pub
 pup
+pwd
 py
 pyc
 qfx
@@ -636,11 +651,13 @@ sxw
 tak
 tar
 taz
+temp
 test
 tga
 tif
 tiff
 tlb
+tmp
 torrent
 ts
 tsv
@@ -652,6 +669,8 @@ unv
 uos
 uot
 url
+user
+users
 ut!
 v
 v4p
@@ -688,6 +707,7 @@ vsto
 vsvnbak
 vtf
 vue
+vuln
 wav
 webm
 webp
@@ -701,6 +721,7 @@ wmdb
 wmf
 wmv
 wos
+wp
 x
 x3d
 xar
