@@ -37,6 +37,8 @@ ascx
 asf
 ashx
 asm
+asp
+aspx
 asx
 at3
 aty
@@ -78,6 +80,8 @@ cn1
 coe
 com
 compile
+conf
+config
 copac
 cpc
 cpl
@@ -302,6 +306,9 @@ gdx
 ged
 ggb
 gif
+gilab
+git
+github
 gml
 go
 gpx
@@ -321,6 +328,7 @@ hpp
 hta
 htm
 html
+htmlx
 hum
 hxx
 icc
@@ -330,6 +338,7 @@ ico
 ifc
 igc
 iges
+index
 io
 ipt
 iso
@@ -346,8 +355,10 @@ jpeg
 js
 json
 jsp
+jspx
 kml
 kmz
+lab
 lbr
 ldb
 ldt
@@ -355,6 +366,9 @@ lha
 lisp
 ll
 lnk
+local
+locale
+locales
 lua
 lxf
 ly
@@ -423,6 +437,7 @@ nsv
 numbers
 o
 obj
+object
 obs
 ocx
 opus
@@ -489,6 +504,8 @@ pom
 ppsx
 pptx
 prj
+prod
+properties
 proto
 prp
 ps
@@ -502,6 +519,7 @@ ptx
 pub
 pup
 py
+pyc
 qfx
 qif
 qlc
@@ -588,8 +606,12 @@ spz
 sql
 ssc
 st
+stag
+stage
+staging
 stc
 std
+stg
 sti
 stk
 stm
@@ -614,6 +636,7 @@ sxw
 tak
 tar
 taz
+test
 tga
 tif
 tiff
