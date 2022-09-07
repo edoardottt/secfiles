@@ -109,6 +109,7 @@ cpl
 cpp
 cr2
 crai
+crdownload
 cred
 creds
 crt
@@ -848,6 +849,7 @@ xyz
 xz
 y
 yaml
+yar
 yara
 yml
 z
