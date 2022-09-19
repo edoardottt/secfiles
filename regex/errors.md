@@ -42,3 +42,16 @@ MSSQL error:
   - `(?i)\bSQL Server[^&lt;&quot;]+[0-9a-fA-F]{8}`
   - `(?i)System\.Data\.SqlClient\.SqlException`
   - `(?is)Exception.*?\bRoadhouse\.Cms\.`
+
+MySQL error:
+  - `(?i)valid MySQL result`
+  - `(?i)check the manual that (fits|corresponds to) your MySQL server version`
+  - `(?i)MySQLSyntaxErrorException`
+  - `(?i)MySqlException`
+  - `(?i)MySql error`
+  - `(?i)Unknown column `
+  - `(?i)SQL syntax.*?MySQL`
+  - `(?i)Warning.*?mysqli?`
+  - `(?i)com\.mysql\.jdbc`
+  - `(?i)Zend_Db_(Adapter|Statement)_Mysqli_Exception`
+  - `(?i)Syntax error or access violation`
