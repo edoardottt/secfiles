@@ -55,3 +55,17 @@ MySQL error:
   - `(?i)com\.mysql\.jdbc`
   - `(?i)Zend_Db_(Adapter|Statement)_Mysqli_Exception`
   - `(?i)Syntax error or access violation`
+
+PostgreSQL error:
+  - `(?i)valid PostgreSQL result`
+  - `(?i)PG::SyntaxError:`
+  - `(?i)PSQLException`
+  - `(?i)PostgreSQL query failed`
+  - `(?i)ERROR: parser: parse error at or near`
+  - `(?i)PostgreSQL error`
+  - `(?i)PostgreSQL.*?ERROR`
+  - `(?i)Warning.*?\\Wpg_`
+  - `(?i)Npgsql\.`
+  - `(?i)org\.postgresql\.util\.PSQLException`
+  - `(?i)ERROR:\s\ssyntax error at or near`
+  - `(?i)org\.postgresql\.jdbc`
