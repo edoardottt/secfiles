@@ -42,6 +42,13 @@ MSSQL error:
   - `(?i)\bSQL Server[^&lt;&quot;]+[0-9a-fA-F]{8}`
   - `(?i)System\.Data\.SqlClient\.SqlException`
   - `(?is)Exception.*?\bRoadhouse\.Cms\.`
+  - `(?i)\[SQL Server\]`
+  - `(?i)ODBC Driver \d+ for SQL Server`
+  - `(?i)com\.jnetdirect\.jsql`
+  - `(?i)macromedia\.jdbc\.sqlserver`
+  - `(?i)Zend_Db_(Adapter|Statement)_Sqlsrv_Exception`
+  - `(?i)com\.microsoft\.sqlserver\.jdbc`
+  - `(?i)SQL(Srv|Server)Exception`
 
 MySQL error:
   - `(?i)valid MySQL result`
