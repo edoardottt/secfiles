@@ -123,6 +123,7 @@ meet
 members
 mobile
 monitor
+monitoring
 moodle
 mrtg
 mssql
