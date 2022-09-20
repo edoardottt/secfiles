@@ -43,6 +43,7 @@ cpanel
 crm
 cs
 data
+dashboard
 db
 de
 demo
