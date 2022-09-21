@@ -124,6 +124,7 @@ meet
 members
 mobile
 monitor
+monitoring
 moodle
 mrtg
 mssql
@@ -172,6 +173,7 @@ s1
 s2
 search
 secure
+security
 server
 service
 services
