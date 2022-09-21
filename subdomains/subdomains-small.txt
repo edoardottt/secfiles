@@ -76,6 +76,7 @@ game
 games
 gateway
 git
+gitea
 github
 gitlab
 grafana
