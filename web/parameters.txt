@@ -1,5 +1,6 @@
 action
 arg
+back
 begindate
 board
 callback
@@ -83,6 +84,7 @@ query
 read
 redir
 redirect
+redirect_to
 redirect_uri
 redirect_url
 ref
@@ -94,6 +96,7 @@ return
 return_path
 return_to
 returnTo
+return_uri
 run
 rurl
 s
