@@ -24,3 +24,14 @@ function alivehosts() {
 
   cat $1 | httpx -timeout 5
 }
+
+function filtertargets() {
+  if [[ -z $1 ]]; then
+    echo "usage: filtertargets domains.txt"
+    return
+  fi
+
+  cat $1 | httpx -title -status-code -fr -fs "Origin DNS error|AccessDenied|NoSuchKey|\
+  Access Denied|Your Atlassian Cloud site is currently unavailable|Log in with Atlassian account"\
+  | egrep -iv "microsoftonline|google.com"
+}
