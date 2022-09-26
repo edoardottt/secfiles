@@ -18,9 +18,9 @@ function httpgrep() {
 
 function alivehosts() {
   if [[ -z $1 ]]; then
-    echo "usage: alivehosts domains.txt outputFile"
+    echo "usage: alivehosts domains.txt"
     return
   fi
 
-  cat $1 | httpx -timeout 5 -o $2
+  cat $1 | httpx -timeout 5
 }
