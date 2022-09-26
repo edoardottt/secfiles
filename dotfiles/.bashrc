@@ -35,3 +35,12 @@ function filtertargets() {
   Access Denied|Your Atlassian Cloud site is currently unavailable|Log in with Atlassian account"\
   | egrep -iv "microsoftonline|google.com"
 }
+
+function lazypush() {
+  if [[ -z $1 ]]; then
+    echo "usage: lazypush message"
+    return
+  fi
+
+  git add . && git commit -m "$1" && git push
+}
