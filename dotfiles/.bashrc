@@ -48,7 +48,7 @@ function lazypush() {
 function pullall() {
   for dir in $(ls -d $(pwd)/*/)
   do
-    echo ==== $dir ====
+    echo -e "\e[32m[ > ] ${dir}\e[0m"
     cd $dir
     git pull
   done
