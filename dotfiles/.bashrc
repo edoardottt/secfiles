@@ -46,10 +46,13 @@ function lazypush() {
 }
 
 function pullall() {
+  OLDPULLPWD=$(pwd)
   for dir in $(ls -d $(pwd)/*/)
   do
     echo -e "\e[32m[ > ] ${dir}\e[0m"
     cd $dir
     git pull
   done
+  cd $OLDPULLPWD
+  unset OLDPULLPWD
 }
