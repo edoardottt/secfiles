@@ -1,8 +1,19 @@
 ##########################################
+#         EXPORT PATH
+##########################################
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/edoardottt/go/bin
+export PATH=$PATH:/home/edoardottt/.cargo/bin
+export PATH=$PATH:/home/edoardottt/.local/bin
+export SQLMAP_RANDOMAGENT=1
+
+
+##########################################
 #         ALIASES
 ##########################################
 alias python="python3"
 alias hg="history | grep -i $1"
+
 
 ##########################################
 #         FUNCTIONS
