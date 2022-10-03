@@ -13,6 +13,8 @@ export SQLMAP_RANDOMAGENT=1
 ##########################################
 alias python="python3"
 alias hg="history | grep -i $1"
+alias dirbuster="source /home/edoardottt/github/dirbuster/DirBuster-1.0-RC1.sh"
+alias gf="/home/edoardottt/go/bin/gf"
 
 
 ##########################################
