@@ -69,3 +69,7 @@ function pullall() {
   cd $OLDPULLPWD
   unset OLDPULLPWD
 }
+
+function rmdeadbranches() {
+  git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
+}
