@@ -73,3 +73,7 @@ function pullall() {
 function rmdeadbranches() {
   git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
 }
+
+function lsfunctions() {
+  cat "$HOME"/.bashrc | egrep -i "function" | grep -iv "#" | cut -d "(" -f 1
+}
