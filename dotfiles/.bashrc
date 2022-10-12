@@ -22,7 +22,7 @@ alias gf="/home/edoardottt/go/bin/gf"
 ##########################################
 function httpgrep() {
   if [[ -z $1 || -z $2 ]]; then
-    echo "usage: httpgrep file word"
+    echo "usage: httpgrep domains.txt word(s)"
     return
   fi
 
