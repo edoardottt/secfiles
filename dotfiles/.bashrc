@@ -72,7 +72,11 @@ function pullall() {
 }
 
 function rmdeadbranches() {
+  git branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
+  git branch --merged devel | grep -v '^[ *]*devel$' | xargs git branch -d
   git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
+  git remote prune origin
+  echo "[ > ] Remember to delete local branches."
 }
 
 function lsfunctions() {
