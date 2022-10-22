@@ -14,7 +14,7 @@ rm -rf "$path/dns/trusted-resolvers-small.txt"
 
 date=$(date +%F)
 
-dnsvalidator -tL "$path/dns/nameservers.txt" -threads 100 -o "$path/dns/trusted-resolvers-big.txt"
+dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -o "$path/dns/trusted-resolvers-big.txt"
 
 sed -i~ -e '2,$b' -e '/^$/d' "$path/dns/trusted-resolvers-big.txt"
 
