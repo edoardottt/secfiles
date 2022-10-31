@@ -1,4 +1,4 @@
-#### [cs.github.com](https://cs.github.com)
+### [cs.github.com](https://cs.github.com)
 
 - `path:*.js /exec\(/` 
 - `path:*.js /exec\(.*\$.*/`
