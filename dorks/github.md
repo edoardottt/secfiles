@@ -5,3 +5,4 @@
 - `path:*.js /execSync\(.*\$.*/`
 - `path:*.php /\$_GET\(/`
 - `path:*.php /\$_POST\(/`
+- `path:*.php /exec\(/`
