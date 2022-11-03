@@ -46,7 +46,7 @@ function filtertargets() {
     return
   fi
 
-  cat $1 | httpx -title -status-code -fr -fe "Origin DNS error|AccessDenied|NoSuchKey|Access Denied|Your Atlassian Cloud site is currently unavailable|Log in with Atlassian account"| egrep -iv "microsoftonline|google.com"
+  cat $1 | httpx -title -status-code -fr -fe "Origin DNS error|AccessDenied|NoSuchKey|Access Denied|Your Atlassian Cloud site is currently unavailable|Log in with Atlassian account|The request could not be satisfied"| egrep -iv "microsoftonline|google.com"
 }
 
 function lazypush() {
