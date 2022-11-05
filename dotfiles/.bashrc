@@ -81,3 +81,12 @@ function rmdeadbranches() {
 function lsfunctions() {
   cat "$HOME"/.bashrc | egrep -i "function" | grep -iv "#" | cut -d "(" -f 1
 }
+
+function commonffuf() {
+  if [[ -z $1 ]]; then
+    echo "usage: commonffuf http://scan.me.sh/"
+    return
+  fi
+
+  ffuf -w "$HOME"/github/seclists/Discovery/Web-Content/common.txt -u "$1"FUZZ
+}
