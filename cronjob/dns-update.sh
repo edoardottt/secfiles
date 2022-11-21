@@ -22,7 +22,7 @@ rm -rf "/home/edoardottt/github/secfiles/dns/trusted-resolvers-big.txt~"
 
 git add . && git commit -m "$date - update dns resolvers big" && git push
 
-cat "$path/dns/trusted-resolvers-big.txt" | head -n 300 > "$path/dns/trusted-resolvers-medium.txt"
+cat "$path/dns/trusted-resolvers-big.txt" | head -n 200 > "$path/dns/trusted-resolvers-medium.txt"
 
 git add . && git commit -m "$date - update dns resolvers medium" && git push
 
