@@ -90,3 +90,22 @@ function commonffuf() {
 
   ffuf -w "$HOME"/github/seclists/Discovery/Web-Content/common.txt -u "$1"FUZZ
 }
+
+function addprefix() {
+  if [[ -z $1 ]]; then
+    echo "usage: addprefix prefix file outputfile"
+    return
+  fi
+
+  if [[ -z $2 ]]; then
+    echo "usage: addprefix file outputfile"
+    return
+  fi
+
+  if [[ -z $3 ]]; then
+    echo "usage: addprefix file outputfile"
+    return
+  fi
+
+  sed -e "s/^/$1/" "$2" > "$3"
+}
