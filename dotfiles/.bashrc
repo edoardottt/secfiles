@@ -84,11 +84,11 @@ function lsfunctions() {
 
 function commonffuf() {
   if [[ -z $1 ]]; then
-    echo "usage: commonffuf http://scan.me.sh/"
+    echo "usage: commonffuf http://scan.me.sh/ {options between quotes}"
     return
   fi
 
-  ffuf -w "$HOME"/github/seclists/Discovery/Web-Content/common.txt -u "$1"FUZZ
+  ffuf -w /opt/wordlists/common.txt -u "$1"FUZZ $2
 }
 
 function addprefix() {
