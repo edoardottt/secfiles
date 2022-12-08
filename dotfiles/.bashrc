@@ -88,7 +88,13 @@ function commonffuf() {
     return
   fi
 
-  ffuf -w /opt/wordlists/common.txt -u "$1"FUZZ $2
+  if [[ ! "$1" =~ ^.*\/$ ]]; then
+    target="$1/"
+  else
+    target="$1"
+  fi
+
+  ffuf -w /opt/wordlists/common.txt -u "$target"FUZZ $2
 }
 
 function addprefix() {
