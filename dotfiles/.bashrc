@@ -1,6 +1,7 @@
 ##########################################
 #         EXPORT PATH
 ##########################################
+
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/edoardottt/go/bin
 export PATH=$PATH:/home/edoardottt/.cargo/bin
@@ -13,6 +14,7 @@ export SQLMAP_RANDOMAGENT=1
 ##########################################
 #         ALIASES
 ##########################################
+
 alias python="python3"
 alias hg="history | grep -i $1"
 alias dirbuster="source /home/edoardottt/github/dirbuster/DirBuster-1.0-RC1.sh"
@@ -25,6 +27,11 @@ alias gau=`which gau`
 ##########################################
 #         FUNCTIONS
 ##########################################
+
+function lsfunctions() {
+  cat "$HOME"/.bashrc | egrep -i "function" | grep -iv "#" | cut -d "(" -f 1
+}
+
 function httpgrep() {
   if [[ -z $1 || -z $2 ]]; then
     echo "usage: httpgrep domains.txt word(s)"
@@ -79,10 +86,6 @@ function rmdeadbranches() {
   git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d
   git remote prune origin
   echo "[ > ] Remember to delete local branches."
-}
-
-function lsfunctions() {
-  cat "$HOME"/.bashrc | egrep -i "function" | grep -iv "#" | cut -d "(" -f 1
 }
 
 function commonffuf() {
