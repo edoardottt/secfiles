@@ -7,5 +7,6 @@
 - `hostname:"target"`
 - `org:target`
 - `http.title:"index of/"`
+- `http.title:"gitlab"`
 
 Look also: [jakejarvis/awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries)
