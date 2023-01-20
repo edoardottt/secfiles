@@ -8,5 +8,7 @@
 - `org:target`
 - `http.title:"index of/"`
 - `http.title:"gitlab"`
+- `"230 login successful" port:"21"`
+- `http.title:"Admin"`
 
 Look also: [jakejarvis/awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries)
