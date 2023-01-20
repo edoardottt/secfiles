@@ -1,5 +1,8 @@
 # Google Dorks
 
+### Responsible Disclosure / But Bounty
+
+- `"submit vulnerability report" | "powered by bugcrowd" | "powered by hackerone"`
 
 ### Generic queries
 
