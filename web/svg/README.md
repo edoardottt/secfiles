@@ -1,15 +1,15 @@
 
-- [etc-hostname](https://github.com/edoardottt/secfiles/blob/main/svg/etc-hostname) LFI - Retrieve /etc/hostname
-- [php-ls](https://github.com/edoardottt/secfiles/blob/main/svg/php-ls) RCE - ls command using php expect
-- [ssrf-css](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css) SSRF - Using css href
-- [ssrf-css-include](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-include) SSRF - Using css @import
-- [ssrf-css-stylesheet](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-stylesheet) SSRF - Using xml stylesheet
-- [ssrf-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-iframe) SSRF - Using iframe in foreignObject
-- [ssrf-image](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-image) SSRF - Using image in xml
-- [ssrf-use](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-use) SSRF - Using use href
-- [ssrf-xxe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-xxe) SSRF - Using XML External Entity
-- [xss-alert-1](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-1) XSS - Using script tag (file upload)
-- [xss-alert-2](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-2) XSS - Using script tag
-- [xss-alert-3](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-3) XSS - Using script tag
-- [xss-alert-4](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-4) XSS - Using script tag inside an iframe tag
-- [xss-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/xss-iframe) XSS - Using script tag inside an iframe tag
+- [etc-hostname](https://github.com/edoardottt/secfiles/blob/main/svg/etc-hostname.svg) LFI - Retrieve /etc/hostname
+- [php-ls](https://github.com/edoardottt/secfiles/blob/main/svg/php-ls.svg) RCE - ls command using php expect
+- [ssrf-css](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css.svg) SSRF - Using css href
+- [ssrf-css-include](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-include.svg) SSRF - Using css @import
+- [ssrf-css-stylesheet](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-css-stylesheet.svg) SSRF - Using xml stylesheet
+- [ssrf-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-iframe.svg) SSRF - Using iframe in foreignObject
+- [ssrf-image](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-image.svg) SSRF - Using image in xml
+- [ssrf-use](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-use.svg) SSRF - Using use href
+- [ssrf-xxe](https://github.com/edoardottt/secfiles/blob/main/svg/ssrf-xxe.svg) SSRF - Using XML External Entity
+- [xss-alert-1](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-1.svg) XSS - Using script tag (file upload)
+- [xss-alert-2](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-2.svg) XSS - Using script tag
+- [xss-alert-3](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-3.svg) XSS - Using script tag
+- [xss-alert-4](https://github.com/edoardottt/secfiles/blob/main/svg/xss-alert-4.svg) XSS - Using script tag inside an iframe tag
+- [xss-iframe](https://github.com/edoardottt/secfiles/blob/main/svg/xss-iframe.svg) XSS - Using script tag inside an iframe tag
