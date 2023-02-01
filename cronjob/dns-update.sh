@@ -24,6 +24,8 @@ cat "$path/dns/trusted-resolvers-big.txt" | head -n 200 > "$path/dns/trusted-res
 
 cat "$path/dns/trusted-resolvers-big.txt" | head -n 30 > "$path/dns/trusted-resolvers-small.txt"
 
+sleep 60
+
 git add . && git commit -m "$date - update dns" && git push
 
 echo "secfiles - $date dns update" | notify
