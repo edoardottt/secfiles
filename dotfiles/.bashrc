@@ -100,7 +100,7 @@ function commonffuf() {
     target="$1"
   fi
 
-  ffuf -w /opt/wordlists/common.txt -u "$target"FUZZ $2
+  ffuf -w /opt/wordlists/common.txt -r -u "$target"FUZZ $2
 }
 
 function addprefix() {
@@ -121,3 +121,6 @@ function addprefix() {
 
   sed -e "s/^/$1/" "$2" > "$3"
 }
+# Generated for pdtm. Do not edit.
+export PATH=/home/edoardottt/.pdtm/go/bin:$PATH
+
