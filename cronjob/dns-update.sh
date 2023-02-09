@@ -28,6 +28,6 @@ sleep 60
 
 git add .
 git commit -m "$date - update dns"
-git push | tee log.txt
+git push
 
 echo "secfiles - $date dns update" | notify
