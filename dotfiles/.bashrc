@@ -121,6 +121,11 @@ function addprefix() {
 
   sed -e "s/^/$1/" "$2" > "$3"
 }
+
+function rmoldsnaps() {
+  sudo snap list --all | while read snapname ver rev trk pub notes; do if [[ $notes = *disabled* ]]; then sudo snap remove "$snapname" --revision="$rev"; fi; done
+}
+
 # Generated for pdtm. Do not edit.
 export PATH=/home/edoardottt/.pdtm/go/bin:$PATH
 
