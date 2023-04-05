@@ -12,3 +12,6 @@ new
 old
 uat
 central
+cloud
+console
+auth
