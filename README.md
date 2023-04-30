@@ -1,5 +1,5 @@
 # secfiles
-My files for security assessments, bug bounty and more.
+My files for security assessments, bug bounty and security related stuff.
 
 Download 📡
 ----------
