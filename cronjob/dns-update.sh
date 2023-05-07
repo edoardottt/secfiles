@@ -20,9 +20,9 @@ sed -i~ -e '2,$b' -e '/^$/d' "$path/dns/trusted-resolvers-big.txt"
 
 rm -rf "/home/edoardottt/github/secfiles/dns/trusted-resolvers-big.txt~"
 
-cat "$path/dns/trusted-resolvers-big.txt" | head -n 1000 > "$path/dns/trusted-resolvers-medium.txt"
+cat "$path/dns/trusted-resolvers-big.txt" | head -n 4000 > "$path/dns/trusted-resolvers-medium.txt"
 
-cat "$path/dns/trusted-resolvers-big.txt" | head -n 100 > "$path/dns/trusted-resolvers-small.txt"
+cat "$path/dns/trusted-resolvers-big.txt" | head -n 300 > "$path/dns/trusted-resolvers-small.txt"
 
 sleep 30
 
