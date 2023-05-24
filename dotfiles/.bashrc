@@ -126,6 +126,10 @@ function rmoldsnaps() {
   sudo snap list --all | while read snapname ver rev trk pub notes; do if [[ $notes = *disabled* ]]; then sudo snap remove "$snapname" --revision="$rev"; fi; done
 }
 
+function newvenv() {
+  python3 -m venv .venv && source .venv/bin/activate && python3 -m pip install -r requirements.txt
+}
+
 # Generated for pdtm. Do not edit.
 export PATH=/home/edoardottt/.pdtm/go/bin:$PATH
 
