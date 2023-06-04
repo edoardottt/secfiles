@@ -30,4 +30,4 @@ git add .
 git commit -m "$date - update dns"
 git push
 
-echo "secfiles - $date dns update" | notify
+echo "secfiles - $date dns update" | ~/.pdtm/go/bin/notify
