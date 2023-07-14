@@ -15,6 +15,17 @@ wp-admin.php
 wp-blog-header.php
 wp-content
 wp-content/uploads
+wp-content/uploads/2003
+wp-content/uploads/2004
+wp-content/uploads/2005
+wp-content/uploads/2006
+wp-content/uploads/2007
+wp-content/uploads/2008
+wp-content/uploads/2009
+wp-content/uploads/2010
+wp-content/uploads/2011
+wp-content/uploads/2012
+wp-content/uploads/2013
 wp-content/uploads/2014
 wp-content/uploads/2015
 wp-content/uploads/2016
