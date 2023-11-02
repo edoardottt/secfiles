@@ -23,6 +23,7 @@ alias gf="/home/edoardottt/go/bin/gf"
 alias clip="xclip -selection c"
 alias suspend="systemctl suspend"
 alias gau=`which gau`
+alias bazel="bazelisk"
 
 
 ##########################################
