@@ -2,7 +2,7 @@
 # This script updates (daily, active cronjob) the 3 dns lists
 # in the 'dns' folder: big, medium and small.
 
-path="/home/edoardottt/github/secfiles"
+path="~/github/secfiles"
 
 cd "$path"
 
@@ -18,7 +18,7 @@ dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -o "$path/
 
 sed -i~ -e '2,$b' -e '/^$/d' "$path/dns/trusted-resolvers-big.txt"
 
-rm -rf "/home/edoardottt/github/secfiles/dns/trusted-resolvers-big.txt~"
+rm -rf "~/github/secfiles/dns/trusted-resolvers-big.txt~"
 
 cat "$path/dns/trusted-resolvers-big.txt" | head -n 4000 > "$path/dns/trusted-resolvers-medium.txt"
 
