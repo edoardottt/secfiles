@@ -18,7 +18,7 @@ dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -o "$path/
 
 sed -i~ -e '2,$b' -e '/^$/d' "$path/dns/trusted-resolvers-big.txt"
 
-rm -rf "~/github/secfiles/dns/trusted-resolvers-big.txt~"
+rm -rf $path/github/secfiles/dns/trusted-resolvers-big.txt~
 
 cat "$path/dns/trusted-resolvers-big.txt" | head -n 4000 > "$path/dns/trusted-resolvers-medium.txt"
 
