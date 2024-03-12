@@ -103,7 +103,7 @@ function commonffuf() {
     target="$1"
   fi
 
-  ffuf -w /opt/wordlists/common.txt -r -u "$target"FUZZ $2
+  ffuf -mc 200,204,301,302,307,401,403,405,415 -w /opt/wordlists/common.txt -u "$target"FUZZ $2
 }
 
 function addprefix() {
