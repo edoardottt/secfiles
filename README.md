@@ -1,6 +1,6 @@
 # secfiles
 
-My files for security assessments, bug bounty and other security related stuff.
+My useful files for penetration tests, security assessments, bug bounty and other security related stuff.
 
 Download 📡
 ----------
