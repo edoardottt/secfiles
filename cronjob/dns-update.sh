@@ -3,6 +3,7 @@
 # in the 'dns' folder: big, medium and small.
 
 path="/root/github/secfiles"
+pathvalidator="/root/github/dnsvalidator"
 
 cd "$path"
 
@@ -13,6 +14,10 @@ rm -rf "$path/dns/trusted-resolvers-medium.txt"
 rm -rf "$path/dns/trusted-resolvers-small.txt"
 
 date=$(date +%F)
+
+cd $pathvalidator && python3 -m venv .venv && source .venv/bin/activate && python3 -m pip install -r requirements.txt
+
+cd "$path"
 
 dnsvalidator -tL https://public-dns.info/nameservers.txt -threads 100 -o "$path/dns/trusted-resolvers-big.txt"
 
