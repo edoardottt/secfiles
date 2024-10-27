@@ -6,9 +6,12 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/edoardottt/go/bin
 export PATH=$PATH:/home/edoardottt/.cargo/bin
 export PATH=$PATH:/home/edoardottt/.local/bin
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin/
+export PATH=$PATH:/home/edoardottt/.dotnet/tools
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 export PATH=$PATH:$JAVA_HOME/bin
 export SQLMAP_RANDOMAGENT=1
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 
 ##########################################
