@@ -136,6 +136,10 @@ function newvenv() {
   python3 -m venv .venv && source .venv/bin/activate && python3 -m pip install -r requirements.txt
 }
 
+function cleandocker () {
+  docker ps -f status=exited -q | xargs -r docker rm; docker images -f dangling=true -q | xargs -r docker rmi
+}
+
 # Generated for pdtm. Do not edit.
 export PATH=/home/edoardottt/.pdtm/go/bin:$PATH
 
