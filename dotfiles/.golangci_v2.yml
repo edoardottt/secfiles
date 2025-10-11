@@ -1,0 +1,58 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - asciicheck
+    - bodyclose
+    - copyloopvar
+    - dogsled
+    - dupl
+    - err113
+    - errcheck
+    - exhaustive
+    - gochecknoglobals
+    - gochecknoinits
+    - goconst
+    - gocritic
+    - godot
+    - godox
+    - goheader
+    - gomodguard
+    - goprintffuncname
+    - govet
+    - ineffassign
+    - misspell
+    - mnd
+    - nakedret
+    - nolintlint
+    - prealloc
+    - rowserrcheck
+    - sqlclosecheck
+    - staticcheck
+    - testpackage
+    - unconvert
+    - unparam
+    - unused
+    - whitespace
+    - wsl_v5
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    rules:
+      - path: path/file.go
+        text: '(?i)example regex$'
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
